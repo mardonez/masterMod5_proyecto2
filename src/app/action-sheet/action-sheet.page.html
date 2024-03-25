@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="mycolor">
+    <ion-title>Action Sheet</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <button id="open-action-sheet" expand="block" class="btn">OPCIONES</button>
+    <ion-action-sheet trigger="open-action-sheet" header="Qué desea hacer?" [buttons]="actionSheetButtons"></ion-action-sheet>
+  </div>
+
+  <div id="container1">
+    <button ion-button (click)="goToHome()" class="btn1">Go to Home</button>
+  </div>
+
+</ion-content>

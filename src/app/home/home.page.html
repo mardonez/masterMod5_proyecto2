@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="mycolor">
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div id="container">
+    <button ion-button (click)="goToCustomers()" class="btn">Go to Customers</button>
+  </div>
+  <div id="container1">
+    <button ion-button (click)="goToAlert()" class="btn">Go to Alerta</button>
+  </div>
+  <div id="container2">
+    <button ion-button (click)="goToButton()" class="btn">Go to Botones</button>
+  </div>
+  <div id="container3">
+    <button ion-button (click)="goToCard()" class="btn">Go to Cards</button>
+  </div>
+  <div id="container4">
+    <button ion-button (click)="goToActionSheet()" class="btn">Go to Action-sheet</button>
+  </div>  
+
+</ion-content>
